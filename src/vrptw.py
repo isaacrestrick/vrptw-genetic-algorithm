@@ -461,9 +461,19 @@ class VRPTWGeneticAlgorithm:
             xaxis_title='X Coordinate',
             yaxis_title='Y Coordinate',
             showlegend=True,
-            width=1000,
+            width=1200,
             height=800,
-            template='plotly_white'
+            template='plotly_white',
+            legend=dict(
+                x=1.02,
+                y=1,
+                xanchor='left',
+                yanchor='top',
+                bgcolor='rgba(255, 255, 255, 0.8)',
+                bordercolor='rgba(0, 0, 0, 0.2)',
+                borderwidth=1
+            ),
+            margin=dict(r=150)  # Add right margin for legend
         )
 
         if save_path:
