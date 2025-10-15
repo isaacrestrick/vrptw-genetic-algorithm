@@ -4,6 +4,7 @@
 
 A beautiful and comprehensive implementation of a genetic algorithm solving the Vehicle Routing Problem with Time Windows (VRPTW), featuring interactive visualizations and detailed analysis.
 
+![CI](https://github.com/isaacrestrick/vrptw-genetic-algorithm/workflows/CI/badge.svg)
 ![VRPTW Visualization](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![Genetic Algorithm](https://img.shields.io/badge/Algorithm-Genetic-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
